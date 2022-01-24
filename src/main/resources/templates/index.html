@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffeePlace</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/487a251d7c.js" crossorigin="anonymous"></script>
+    <!-- Stylesheets-->
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section class="colored-section" id="title">
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="">CoffeePlace</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end"
+                 id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/signin">Sign in / Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Titulo -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="big-heading">Have your coffee, for the price of coffee.</h1>
+                <a class="btn btn-dark btn-lg download-btn" href="/signin">Sign up</a>
+                <button type="button"
+                        class="btn btn-outline-light btn-lg download-btn">
+                    Download
+                </button>
+            </div>
+            <div class="col-lg-6">
+                <img class="coffee-pic"
+                     src="https://cdn.dribbble.com/users/238864/screenshots/16898335/media/81d11860c413a862df6ee861ff66e249.png"
+                     alt="coffee illustration">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Features -->
+<section class="white-section" id="features">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg">
+                <i class="fas fa-check-circle"></i>
+                <h3>Precinho</h3>
+                <p>Preços mais atraentes que os do mercado.</p>
+            </div>
+            <div class="col-lg">
+                <i class="fas fa-check-circle"></i>
+                <h3>Variedade</h3>
+                <p>Doces ou amargos, tradicionais ou gourmet, solúveis ou moídos.</p>
+            </div>
+            <div class="col-lg">
+                <i class="fas fa-check-circle"></i>
+                <h3>Entrega garantida</h3>
+                <p>Todo mês, seu cafézinho na sua porta ou na da sua empresa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testemunhos -->
+<section class="colored-section" id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner container-fluid">
+            <div class="carousel-item active">
+                <h2 class="testimonial-text medium-heading">"Eu já não preciso mais comparar os preços no mercado
+                    ou sequer me deslocar. Com o plano mensal, garanto meu café com o melhor preço."</h2>
+                <img class="testimonial-img" src="random-woman-2.jpeg" alt="woman-profile"> <br>
+                <em>Maria, Maceió</em>
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text medium-heading">"As diversas opções do CoffeePlace possibilitam que
+                    eu experimente um café diferente a cada mês e ele se torne meu novo preferido."</h2>
+                <img class="testimonial-img" src="random-man-2.jpeg" alt="man-profile"> <br>
+                <em>José, Maceió</em>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </a>
+    </div>
+</section>
+
+
+<!-- Parceiros -->
+
+<section class="colored-section" id="press">
+    <div class="container-fluid">
+        <img class="press-logos" src="nespresso-logo.png" alt="nepresso-logo">
+        <img class="press-logos" src="Starbucks-logo.png" alt="starbucks-logo">
+        <img class="press-logos" src="tres-logo.png" alt="tres-logo">
+    </div>
+</section>
+
+
+<!-- Preços -->
+
+<section class="white-section" id="pricing">
+
+    <h2 class="medium-heading">Um Plano para Qualquer Necessidade</h2>
+    <p>Planos simples e em conta para você.</p>
+
+    <div class="row">
+
+        <div class="col-lg-4 col-md-6 card-col">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Espresso</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="medium-heading">R$20 / mês</h2>
+                    <p>1 Pacote por Semana</p>
+                    <p>2 Opções de Snack por Mês</p>
+                    <p>Usabilidade Ilimitada</p>
+                    <button type="button" class="btn btn-lg w-100 btn-outline-dark">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 card-col">
+            <div class=" card">
+                <div class="card-header">
+                    <h3>Latte</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="medium-heading">R$60 / mês</h2>
+                    <p>6 Pacotes por Mês</p>
+                    <p>4 Opções de Snacks por Mês</p>
+                    <p>Usabilidade Ilimitada</p>
+                    <button type="button" class="btn btn-lg w-100 btn-dark">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 card-col">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Cappuccino</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="medium-heading">R$120 / mês</h2>
+                    <p>8 Pacotes por Mês</p>
+                    <p>4 Opções de Snack por Mês</p>
+                    <p>Cupons de Desconto Semanais</p>
+                    <p>Usabilidade Ilimitada</p>
+                    <button type="button" class="btn btn-lg w-100 btn-dark">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="cta">
+
+    <h3 class="big-heading">Garanta seu Cafézinho no Precinho Hoje.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer class="white-section" id="footer">
+    <p> <i class="icon fab fa-twitter"></i> <i class="icon fab fa-facebook-f"></i> <i class="icon fab fa-instagram"></i> <i class="icon fas fa-envelope"></i></p>
+    <p>© Copyright 2022 CoffeePlace</p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
